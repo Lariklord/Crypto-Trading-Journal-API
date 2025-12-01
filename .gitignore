@@ -1,0 +1,27 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Docker
+.docker/
+
+# ня
+.DS_Store
+Thumbs.db
