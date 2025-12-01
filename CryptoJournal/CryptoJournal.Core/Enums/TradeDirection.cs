@@ -1,6 +1,6 @@
-﻿namespace CryptoJournal.Core.Models
+﻿namespace CryptoJournal.Core.Enums
 {
-    internal enum TradeDirection
+    public enum TradeDirection
     {
         Long,
         Short

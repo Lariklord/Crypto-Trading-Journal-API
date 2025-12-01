@@ -1,17 +1,12 @@
 ﻿using CryptoJournal.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CryptoJournal.Core.Models
 {
-    internal class Trade
+    public class Trade
     {
         public int Id { get; set; }
 
-        public string CurrencyPair { get; set; }
+        public required string CurrencyPair { get; set; }
 
         public TradeDirection Direction { get; set; }
 
@@ -29,11 +24,14 @@ namespace CryptoJournal.Core.Models
 
         public decimal Fees { get; set; }
 
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
 
         public int Laverage { get; set; }
 
         public decimal PnL {  get; set; }
+
+        public required Trader Trader { get; set; }
+        public int TraderId { get; set; }
 
     }
 }
