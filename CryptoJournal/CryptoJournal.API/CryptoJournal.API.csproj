@@ -12,13 +12,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\CryptoJournal.Core\CryptoJournal.Core.csproj" />
     <ProjectReference Include="..\CryptoJournal.Infrastructure\CryptoJournal.Infrastructure.csproj" />
   </ItemGroup>
 

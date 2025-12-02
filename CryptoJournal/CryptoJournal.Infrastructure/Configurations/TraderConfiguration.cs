@@ -1,5 +1,4 @@
-﻿
-using CryptoJournal.Core.Models;
+﻿using CryptoJournal.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
